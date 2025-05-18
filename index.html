@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ScienceVerse</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>🔬 ScienceVerse</h1>
+    <p>Explore, Learn & Play with Science!</p>
+  </header>
+
+  <nav class="navbar">
+    <button onclick="navigateTo('lab')">🧪 Virtual Lab</button>
+    <button onclick="navigateTo('space')">🌌 Space & Earth</button>
+    <button onclick="navigateTo('table')">🧬 Periodic Table</button>
+    <button onclick="navigateTo('body')">🧍 Human Biology</button>
+  </nav>
+
+  <main>
+    <section id="lab" class="content active">
+      <h2>Virtual Lab</h2>
+      <p>Simulate cool experiments and learn real science safely!</p>
+    </section>
+
+    <section id="space" class="content">
+      <h2>Space & Earth</h2>
+      <p>Explore the solar system, planets and our Earth's climate.</p>
+    </section>
+
+    <section id="table" class="content">
+      <h2>Periodic Table</h2>
+      <p>Tap on elements to learn more or play element battle!</p>
+    </section>
+
+    <section id="body" class="content">
+      <h2>Human Biology</h2>
+      <p>Learn about the human body with interactive models.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ for curious minds</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
